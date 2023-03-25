@@ -1,0 +1,48 @@
+name: main
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install requirements
+        run: |
+          sudo apt update
+          sudo apt install nodejs npm
+          sudo npm install -g markdownlint-cli
+      - name: lint
+        run: |
+          shopt -s globstar
+          shopt -s extglob
+          make lint
+  build:
+    # constrain publish to pushes to main
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: set up Python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: install dependencies
+        run: |
+          sudo apt-get install --yes jq curl wget
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: build
+        run: make build
+
+      - name: publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
