@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: install requirements
         run: |
-          apt update
-          apt intall nodejs npm
-          npm install markdownlint-cli
+          sudo apt update
+          sudo apt intall nodejs npm
+          sudo npm install markdownlint-cli
       - name: lint
         run: |
           shopt -s globstar
