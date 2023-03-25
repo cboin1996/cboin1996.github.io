@@ -4,8 +4,13 @@ site_dir: public
 
 theme:
   name: material
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
-  # Palette toggle for dark mode
+    # Palette toggle for dark mode
     - scheme: default
       toggle:
         icon: material/brightness-4
