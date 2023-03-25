@@ -1,12 +1,12 @@
 # Projects
 
 This page contains summaries of projects I designed and built
-over the years. Click any of the images to be re-directed to
+over the years. Click any of the headings to be re-directed to
 a youtube video I made for the project.
 
-## 2019 - Nut Sorter 9000
+## [2019 - Nut Sorter 9000](http://www.youtube.com/watch?v=T9pjuGumkJ0)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/T9pjuGumkJ0/0.jpg)](http://www.youtube.com/watch?v=T9pjuGumkJ0 "Nut Sorter 9000")
+![IMAGE ALT TEXT](http://img.youtube.com/vi/T9pjuGumkJ0/0.jpg)
 
 In my fourth year mechatronics course my team and I were tasked with making a
 nut sorting machine.
@@ -20,9 +20,9 @@ speed. The design used three sensors: a hall effect sensor, continuity
 detector, and a limit switch. The code for the project is found on my Github
 [here](https://github.com/cboin1996/NutSorter).
 
-## 2017 - Weed Removal Mechanism
+## [2017 - Weed Removal Mechanism](http://www.youtube.com/watch?v=chmXV6llftY)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/chmXV6llftY/0.jpg)](http://www.youtube.com/watch?v=chmXV6llftY "Weed Removal Mechanism")
+![IMAGE ALT TEXT](http://img.youtube.com/vi/chmXV6llftY/0.jpg)
 
 In my third year at the University of Guelph my team and I were tasked with
 designing a machine related to the agriculture industry. This project
@@ -31,9 +31,9 @@ an engineering design process utilizing the theory learned in class thus far
 in the degree along with programming and CAD design to produce this weeding
 machine.
 
-## 2017 - Sewing Machine Animation
+## [2017 - Sewing Machine Animation](http://www.youtube.com/watch?v=3MW0eu_eavE)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/3MW0eu_eavE/0.jpg)](http://www.youtube.com/watch?v=3MW0eu_eavE "Sewing Machine Animation")
+![IMAGE ALT TEXT](http://img.youtube.com/vi/3MW0eu_eavE/0.jpg)
 
 In my second year I worked in a team to design and animate a sewing machine
 using SOLIDWORKS. I apologize for the flickering Kenmore Label, the codec had
@@ -41,9 +41,9 @@ trouble with it. This project gave me and my teammates a thorough
 understanding of SOLIDWORKS modelling techniques and the skills learned were
 put towards future projects.
 
-## 2017 - W.A.H.M
+## [2017 - W.A.H.M](http://www.youtube.com/watch?v=_G7ONjICCqU)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/_G7ONjICCqU/0.jpg)](http://www.youtube.com/watch?v=_G7ONjICCqU "W.A.H.M")
+![IMAGE ALT TEXT](http://img.youtube.com/vi/_G7ONjICCqU/0.jpg)
 
 In the same year, and with the same team as the sewing machine project we
 worked to design a mechanism that could be disassembled into a kinder egg. We
@@ -52,9 +52,9 @@ designs. The W.A.H.M (Walking Autonomous Humanoid Mechanism) was first
 designed using popsicle sticks and glue, and then with SOLIDWORKS in order to
 be 3D printed.
 
-## 2015 - Mechanno Robot Car
+## [2015 - Mechanno Robot Car](http://www.youtube.com/watch?v=mPNv2hlV5cE)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/mPNv2hlV5cE/0.jpg)](http://www.youtube.com/watch?v=mPNv2hlV5cE "Mechanno Robot Car")
+![IMAGE ALT TEXT](http://img.youtube.com/vi/mPNv2hlV5cE/0.jpg)
 
 In my first year at the University of Guelph, I worked with a team to design
 a Mechanno car that could carry a teddy bear across a series of hurdles and
