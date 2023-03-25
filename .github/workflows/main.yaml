@@ -14,7 +14,7 @@ jobs:
       - name: install requirements
         run: |
           sudo apt update
-          sudo apt intall nodejs npm
+          sudo apt install nodejs npm
           sudo npm install markdownlint-cli
       - name: lint
         run: |
