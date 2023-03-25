@@ -15,7 +15,7 @@ jobs:
         run: |
           apt update
           apt intall nodejs npm
-          npm install -g markdownlint-cli
+          npm install markdownlint-cli
       - name: lint
         run: |
           shopt -s globstar
