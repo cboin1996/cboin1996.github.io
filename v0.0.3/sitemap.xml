@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://cboin1996.github.io/life/v0.0.3/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cboin1996.github.io/life/v0.0.3/experience/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cboin1996.github.io/life/v0.0.3/projects/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cboin1996.github.io/life/v0.0.3/softwareprojects/</loc>
+         <lastmod>2023-03-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
