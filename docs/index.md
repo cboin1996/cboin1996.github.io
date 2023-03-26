@@ -15,5 +15,18 @@ learn new programming concepts.
 
 ## Navigating this Site
 
-Use the top menu on the top left of the site to navigate
-amongst the various pages.
+There are a few ways to quickly navigate around this site.
+
+1. Top menu bar: contains the high level sections of the site
+2. Left side bar: contains sub-sections (if they exist)
+3. Table of contents: contains the current page content
+
+## Site theme
+
+You can switch between light and dark mode by clicking
+the sun/moon icon to the left of the search bar.
+
+## Source code
+
+The source code for this website is linked in the top
+right of the website.

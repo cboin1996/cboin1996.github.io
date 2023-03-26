@@ -1,4 +1,4 @@
-# Projects
+# Robotics Projects 🤖
 
 This page contains summaries of projects I designed and built
 over the years. Click any of the headings to be re-directed to

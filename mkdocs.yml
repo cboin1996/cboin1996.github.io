@@ -16,6 +16,8 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
   palette:
     # Palette toggle for dark mode
     - scheme: slate
