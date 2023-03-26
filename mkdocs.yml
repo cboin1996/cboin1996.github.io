@@ -32,4 +32,3 @@ theme:
 extra:
   version:
     provider: mike
-    default: latest
