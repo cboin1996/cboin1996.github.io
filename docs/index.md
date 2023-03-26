@@ -15,5 +15,5 @@ learn new programming concepts.
 
 ## Navigating this Site
 
-Use the hamburger menu on the top left of the site to navigate
-amonst the various pages.
+Use the top menu on the top left of the site to navigate
+amongst the various pages.
