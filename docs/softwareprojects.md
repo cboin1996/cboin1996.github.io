@@ -4,7 +4,7 @@ Check out [my github](https://github.com/cboin1996) for the latest projects
 I am working on. Feel free to reach out if you have any ideas for projects,
 or think it would be productive to collaborate.
 
-## Songbird
+## Songbird 🐦
 
 Source code is found [here](https://github.com/cboin1996/songbird).
 
@@ -14,7 +14,7 @@ songs while formatting them with valid mp3 or m4a tags. Songbird
 integrates with iTunes, and Google Drive. In addition, the app is
 Dockerized for easier installation by users.
 
-## JukeBox (archived)
+## JukeBox (archived) 🎛️
 
 Source code is found [here](https://github.com/cboin1996/WebTools).
 
@@ -27,7 +27,7 @@ and using the VLC python library provides a media player with
 voice activated commands. The user may choose to download songs not in
 their library, formatting them with the appropriate MP3 tags and album artwork.
 
-## Dalle-ays (Dalle at your service)
+## Dalle-ays (Dalle at your service) 🖼️
 
 Source code is found [here](https://github.com/cboin1996/dalle-ays).
 
@@ -38,7 +38,7 @@ way for users to interact with the server. Both applications are dockerized,
 and I plan to make helm charts so they will eventually be deployable
 in Kubernetes.
 
-## AVDDPGG
+## AVDDPGG 🏎️
 
 Source code is found [here](https://github.com/cboin1996/avddpg).
 
@@ -50,7 +50,7 @@ vehicle platoon. In addition, I apply federated reinforcement learning to
 my platooning environment and investigate the benefits. The work is
 discussed and best summarized in [my publication](https://intellrobot.com/article/view/4885).
 
-## Chesster
+## Chesster ♛
 
 Source code is found [here](https://github.com/cboin1996/Chesster)
 
@@ -65,7 +65,7 @@ and most of the time
 
 beats me.
 
-## ShowMeTheMoney
+## ShowMeTheMoney 💰
 
 Source code is found [here](https://github.com/cboin1996/showMeTheMoney).
 

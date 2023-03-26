@@ -1,12 +1,12 @@
 # Experience
 
-## Resume
+## Resume 📝
 
 A link to my resume can be found [here](https://github.com/cboin1996/resume/releases/latest/download/resume.pdf)
 
-## Summary of Skills
+## Summary of Skills 🤹🏽
 
-Below is a table summarizing my most important skills.
+Below is a table summarizing some of my technical skills.
 
 | Skill            | Years of Experience | Category              |
 | ---------------- | ------------------- | --------------------- |
@@ -27,7 +27,7 @@ Below is a table summarizing my most important skills.
 | C                | 2                   | Programming Languages |
 | C++              | 1                   | Programming Languages |
 
-## Certifications
+## Certifications 🏆
 
 As my career developers, I am continuing to obtain certifications.
 Below are my current certifications.
@@ -35,11 +35,11 @@ Below are my current certifications.
 - [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/bf8f2124-e1a2-4f6a-90e9-ced8b2ad6e07)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/earner/earned/badge/f859428f-3095-418d-842f-748fe33e0f55)
 
-## Roles
+## Roles 🧑‍💼
 
 The below sections provide short summaries of my roles over the years.
 
-### AWS
+### AWS ☁️
 
 #### Worldwide Proserve LCC
 
@@ -54,7 +54,7 @@ My work involves developing cloud applications
 including the automated deployment of infrastructure and application code
 at scale.
 
-### Statistics Canada
+### Statistics Canada ☁️
 
 #### Data Science Division
 
@@ -70,7 +70,7 @@ about and leveraging Cloud technologies such as ArgoCD, Argo Workflows,
 Terraform, Prometheus, Grafana, and of course Kubernetes to design and deploy
 features empowering Data Scientists with programming tools.
 
-### JMP Solutions
+### JMP Solutions 🤖
 
 #### AGV Division
 
@@ -108,7 +108,7 @@ running. Lastly, as a first responder to client issues, I maintained a line
 of contact between suppliers and the client. As a result of the challenges my
 team and I overcame during one of our projects, we received an innovation award.
 
-### Self Employed
+### Self Employed 👨‍🦰
 
 #### Consulting
 
@@ -123,7 +123,7 @@ designed a front end application connected to a custom Sharepoint table. We
 produced a tablet client and a mobile client for viewing a dashboard summary
 of the database.
 
-### Cemcorp Ltd
+### Cemcorp Ltd ⚙️
 
 #### Headquarters
 
@@ -145,7 +145,7 @@ application requirements. Cemcorp gave me valuable experience in the
 engineering consulting field, further developing my interpersonal skills, and
 honing my technical skills in a variety of different softwares.
 
-### Ontario Provincial Parks
+### Ontario Provincial Parks 🏞️
 
 #### Bronte Creek Provincial Park Pool
 
@@ -170,9 +170,9 @@ for running training, closing the pool, preparing competitions, lifeguarding
 shifts, and I often took initiative to help with pool maintenance tasks due
 to my mechanical inclinations.
 
-## Education
+## Education 🏫
 
-### University of Guelph
+### University of Guelph 📜
 
 #### Graduate School
 
