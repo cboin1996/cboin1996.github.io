@@ -1,7 +1,14 @@
+# Project information
 site_name: Christian Boin, MASC+AI
 site_url: https://cboin1996.github.io/life
 site_dir: public
 
+# Repository
+repo_name: cboin1996/life
+repo_url: https://github.com/cboin1996/life
+edit_uri: ""
+
+# Theme information
 theme:
   name: material
   features:
@@ -20,3 +27,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+# Versioning plugin
+extra:
+  version:
+    provider: mike

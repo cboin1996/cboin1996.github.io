@@ -5,12 +5,14 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  release:
+    types: [published]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: install requirements
         run: |
           sudo apt update
@@ -21,28 +23,40 @@ jobs:
           shopt -s globstar
           shopt -s extglob
           make lint
-  build:
-    # constrain publish to pushes to main
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-    needs: lint
+
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: set up Python 3.10
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.11
-
       - name: install dependencies
         run: |
-          sudo apt-get install --yes jq curl wget
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: build
+      - name: test the site builds
         run: make build
 
-      - name: publish
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'release' }}
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@v3
+      - name: get tag
+        id: tag
+        run: |
+          ref="${GITHUB_REF}"
+          tag=$(echo $GITHUB_REF | sed 's/refs\/tags\///g')
+          echo "tag=$tag" >> $GITHUB_OUTPUT
+      - name: deploy
+      # the below steps are referenced from
+      # https://github.com/jimporter/mike#deploying-via-ci
+        run: |
+          git fetch origin gh-pages --depth=1
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          mike deploy --push --update-aliases ${{ steps.tag.outputs.tag }} latest
+          mike set-default latest
