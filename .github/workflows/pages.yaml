@@ -21,26 +21,33 @@ jobs:
           shopt -s globstar
           shopt -s extglob
           make lint
+
   build:
     # constrain publish to pushes to main
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-    needs: lint
+    # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    # needs: lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: get tag
+        id: tag
+        run: |
+          tag=""
+          if [ "${GITHUB_EVENT_NAME}" == "release" ]; then
+            ref="${GITHUB_REF}"
+            tag=$(echo $GITHUB_REF | sed 's/refs\/tags\///g')
+          fi
+          echo "::set-output name=tag::$tag"
       - name: set up Python 3.10
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.11
-
       - name: install dependencies
         run: |
-          sudo apt-get install --yes jq curl wget
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: build
-        run: make build
-
+        run: mike deploy --push --update-aliases ${{ steps.tag.outputs.tag }} latest
       - name: publish
         uses: peaceiris/actions-gh-pages@v3
         with:
