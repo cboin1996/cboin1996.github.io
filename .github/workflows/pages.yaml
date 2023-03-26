@@ -50,7 +50,7 @@ jobs:
         run: |
           ref="${GITHUB_REF}"
           tag=$(echo $GITHUB_REF | sed 's/refs\/tags\///g')
-          echo "::set-output name=tag::$tag"
+          echo "tag=$tag" >> $GITHUB_OUTPUT
       - name: deploy
       # the below steps are referenced from
       # https://github.com/jimporter/mike#deploying-via-ci
