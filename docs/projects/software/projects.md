@@ -1,4 +1,4 @@
-# Software Projects
+# Software Projects 💻
 
 Check out [my github](https://github.com/cboin1996) for the latest projects
 I am working on. Feel free to reach out if you have any ideas for projects,
@@ -27,7 +27,7 @@ and using the VLC python library provides a media player with
 voice activated commands. The user may choose to download songs not in
 their library, formatting them with the appropriate MP3 tags and album artwork.
 
-## Dalle-ays (Dalle at your service) 🖼️
+## Dalle-ays 🖼️
 
 Source code is found [here](https://github.com/cboin1996/dalle-ays).
 
@@ -61,9 +61,7 @@ thorough understanding of how Monte Carlo Tree Search was applied in Google’
 s Alpha-zero chess playing AI. Chesster may be trained through
 supervised learning by importing PGN chess data, or through self play. I
 often play against Chesster for fun, he has become pretty good at chess
-and most of the time
-
-beats me.
+and most of the time beats me.
 
 ## ShowMeTheMoney 💰
 
