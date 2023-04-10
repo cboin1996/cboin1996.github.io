@@ -66,6 +66,5 @@ jobs:
           git fetch origin gh-pages --depth=1
           git config user.name github-actions
           git config user.email github-actions@github.com
-          mike deploy --push ${{ steps.tag.outputs.tag }}
-          mike deploy --push --update-aliases latest latest
+          mike deploy --push --update-aliases ${{ steps.tag.outputs.tag }} latest
           mike set-default --push latest
