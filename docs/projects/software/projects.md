@@ -12,7 +12,28 @@ Songbird is Jukebox’s replacement, designed to be simpler to use and
 more streamlined. This application features the ability to download albums,
 songs while formatting them with valid mp3 or m4a tags. Songbird
 integrates with iTunes, and Google Drive. In addition, the app is
-Dockerized for easier installation by users.
+Dockerized for easier installation by users. Songbird is also automatically
+tested and deployed to PyPi via Github Actions.
+Finally, songbird is built into two packages: [songbirdcore](https://pypi.org/project/songbirdcore/),
+and [songbirdcli](https://pypi.org/project/songbirdcli/).
+This separation allows easy re-use of songbird's core features into my other
+projects, like Pigbot the discord server.
+
+## Requests-Htmlc ☕
+
+Overhauled a popular open source Python web scraping package to use
+Playwright as a faster and better supported rendering engine.
+Features include: automated testing and deployment via Github Actions,
+automatically built [documentation website](https://cboin1996.github.io/requests-html/latest/),
+HTTP requests for web scraping, and JavaScript rendering. Requests-Htmlc
+is built, tested and deployed to PyPi via Github Actions: [requests-htmlc](https://pypi.org/project/requests-htmlc/).
+
+## Pigbot 🐷
+
+Dockerized discord server application built to include chat API's for my
+Dalle-ays project and minecraft server notifications. Pigbot also includes
+integration with songbirdcore, which allows the downloading and
+serving of music into voice channels.
 
 ## JukeBox (archived) 🎛️
 
